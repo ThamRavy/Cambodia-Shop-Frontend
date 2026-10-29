@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cambodia Shop Flutter storefront
 
 Flutter client for the Cambodia Shop Dart Frog API. The app includes product browsing and search, a local shopping cart, customer sign-in and registration, order placement, ABA KHQR payment, and order history.
@@ -18,3 +19,6 @@ For production, configure an HTTPS API endpoint and explicitly allow the web app
 After placing an order, the app requests an ABA KHQR checkout and displays the returned QR. Scan it in ABA Mobile, then tap **I've paid — check status**. The app verifies the transaction with the API; it does not treat scanning the QR or a browser redirect as proof of payment. You can also start payment for an existing unpaid order from the Orders tab.
 
 Configure valid ABA PayWay sandbox merchant credentials and sandbox endpoints in the API's `.env` before testing payment. Do not put PayWay secrets in the Flutter app. If checkout reports that credentials are missing or unavailable, check the API terminal and PayWay sandbox configuration.
+=======
+# Cambodia-Shop-Frontend
+>>>>>>> origin/main
